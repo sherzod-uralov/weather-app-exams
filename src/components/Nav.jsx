@@ -1,7 +1,8 @@
 import weatherLogo from '../assets/svg/weather.svg'
 import { MyContext } from '../Context.jsx'
 import { useContext, useState } from 'react'
-import { FaSearch, FaTimes } from 'react-icons/fa' // Import FaTimes for the close button
+import { FaSearch, FaTimes } from 'react-icons/fa' 
+
 
 const Nav = () => {
     const { setTemperature, temperature, search, setSearch } =
