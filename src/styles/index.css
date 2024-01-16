@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'lato-thin';
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: 'lato-reguular';
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: 'inter-bold';
+    src: url("../fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'inter-regular';
+    src: url("../fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'inter-thin';
+    src: url("../fonts/Inter-Light.ttf");
+}
+
+.inter-bold{
+    font-family: 'inter-bold',sans-serif;
+}
+
+.inter-regular{
+    font-family: 'inter-regular',sans-serif;
+}
+
+.inter-thin{
+    font-family: 'inter-thin',sans-serif;
+}
+
+.lato-light{
+    font-family: 'lato-thin',sans-serif;
+}
+
+.lato-regular{
+    font-family: 'lato-reguular',sans-serif;
+}
+
+.lato-bold{
+    font-family: 'lato-bold',sans-serif;
+}
+
+.container{
+    width: 1500px;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+
+.container2{
+    width: 1480px;
+    max-width: 100%;
+    margin: 0 10px;
+    margin: 0 auto;
+
+}
+
+body{
+    background: white;
+    transition: 0.099s all;
+}
+.bg-color{
+    background: #13131A;
+}
